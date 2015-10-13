@@ -1,2 +1,2 @@
 # TravisSample
-test travis ci
+test travis ci on android project
