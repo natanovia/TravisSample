@@ -11,3 +11,11 @@ android:
 
 jdk:
   - oraclejdk7
+
+sudo: false
+
+script: 'travis_retry ./gradlew build --parallel'
+
+cache:
+  directories:
+    - $HOME/.gradle/caches
