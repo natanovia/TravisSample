@@ -25,12 +25,9 @@ android {
         targetCompatibility JavaVersion.VERSION_1_7
     }
 
-    testOptions {
-        unitTests {
-            all {
-                // configure max heap size of the test JVM
-                maxHeapSize = '2048m'
-            }
+    android {
+        lintOptions {
+            abortOnError false
         }
     }
 }
